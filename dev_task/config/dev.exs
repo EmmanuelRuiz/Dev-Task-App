@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :dev_task, DevTask.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "devtaskuser",
+  password: "tF%y5i",
   hostname: "localhost",
   database: "dev_task_dev",
   stacktrace: true,
